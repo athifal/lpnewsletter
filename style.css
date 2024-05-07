@@ -1,0 +1,117 @@
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: auto;
+    
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    width: 100%;
+    height: auto;
+  }
+  
+  .intro {
+    margin-bottom: 20px;
+    padding: 100px;
+    background-color: #000; 
+    background-size: cover;
+    border-radius: 10px;
+    color: #e2df1d; 
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    box-shadow: 0 0 10px rgba(241, 238, 3, 0.952);
+  }
+  
+  .latestupdates,
+  .event-roadmap,
+  .cta {
+    background-color: #000;
+    color: #ffd700;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .latestupdates h2,
+  .event-roadmap h2,
+  .cta p {
+    color: #ffd700;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .event-roadmap ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .event-roadmap li {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ffd700;
+    padding-bottom: 10px;
+  }
+  
+  .event-roadmap li span {
+    font-weight: bold;
+  }
+  
+  .cta-button {
+
+    
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffd700;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .cta-button:hover {
+    background-color: #2a1b61;
+  }
+  .link-container {
+    text-align: center;
+  }
+  
+  .link-container a {
+    display: inline-block; 
+    padding: 10px 20px;
+    background-color: #ffd700;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+ 
+.social-container {
+    text-align: center;
+    margin-top: 20px; 
+  }
+  
+  .social-container h3 {
+    margin-bottom: 10px; 
+  }
+  
+  .social-container a {
+    display: inline-block; 
+    margin-right: 10px; 
+  }
+  
+  .social-container img {
+    vertical-align: middle; 
+    width: 20px; 
+  }
+  
